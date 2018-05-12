@@ -21,7 +21,7 @@ class BubbleSort{
 	
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Enter number of elements in sorted array: ");
+		System.out.println("Enter number of elements of array: ");
 		int N=scan.nextInt();
 		System.out.println("Enter unsorted array");
 		int[] A = new int[N];
