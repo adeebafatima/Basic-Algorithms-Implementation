@@ -2,7 +2,6 @@ import java.util.Scanner;
 class LinearSearch{ 
 
 	int linearSearch(int A[],int n,int item){
-		boolean flag=true;
 		for(int i=0;i<n;i++){
 			if(A[i]==item)
 				return i;
